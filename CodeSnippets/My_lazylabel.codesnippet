@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyLabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UILabel *)&lt;#labelName#&gt; {
+    if (!_&lt;#labelName#&gt;) {
+        UILabel *v = [[UILabel alloc] init];
+        v.font = &lt;#font#&gt;;
+        v.text = &lt;#text#&gt;;
+        v.textColor = [UIColor &lt;#color#&gt;];
+        v.textAlignment = NSTextAlignmentCenter;
+        _&lt;#labelName#&gt; = v;
+    }
+    return _&lt;#labelName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D7227C17-6368-4FA9-BCD1-D354BC129AD9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UILabelInit</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
